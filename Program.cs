@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,14 +13,18 @@ namespace ConsoleApplication1
     class Program
     {
 
-        //Karthi Here
-        //Eliyas Here -- Need approval from innowave...
+
         static void Main(string[] args)
         {
             LocalPing();
 
             ReadValueFromXmldocument();
             CreateXmlDocument();
+
+            String val = "#9999 54% 👍";
+            String val2 = "#1111 👍 12%";
+            String val3 = "👍 #1111 15%";
+
 
             String ipstr = "#1111 👎 10%";
             String uniqueid = String.Empty;
